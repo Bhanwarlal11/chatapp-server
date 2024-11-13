@@ -6,9 +6,9 @@ import { getBase64, getSockets } from "../lib/helper.js";
 
 const cookieOptions = {
   maxAge: 15 * 24 * 60 * 60 * 1000,
-  sameSite: "strict",
-  httpOnly: true,
-  secure: true,
+  // sameSite: "strict",
+  // httpOnly: true,
+  // secure: true,
 };
 
 const connectDB = (uri) => {
